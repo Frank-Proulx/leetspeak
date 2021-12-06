@@ -13,4 +13,8 @@ describe('#leetspeak') do
   it('replaces every "o" in a string with a "0"') do
     expect(leetspeak("boo boo")).to(eq("b00 b00"))
   end
+
+  it('replaces every "I" in a string with a "1"') do
+    expect(leetspeak("I like Ike")).to(eq("1 lik3 1k3"))
+  end
 end
